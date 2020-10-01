@@ -1,0 +1,21 @@
+{
+  "name": "typeorm-docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/typeorm-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-fulltext-search": "^2.0.6"
+  }
+}
