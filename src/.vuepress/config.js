@@ -91,7 +91,10 @@ module.exports = {
       {
         title: 'Entity Manager and Repository',
         children: [
-          ['/entity-manager-and-repository/working-with-entity-manager', 'Working with EntityManager'],
+          [
+            '/entity-manager-and-repository/working-with-entity-manager',
+            'Working with EntityManager',
+          ],
           '/entity-manager-and-repository/working-with-repository',
           '/entity-manager-and-repository/find-options',
           '/entity-manager-and-repository/custom-repository',
@@ -119,7 +122,10 @@ module.exports = {
           '/advanced-topics/migrations',
           '/advanced-topics/transactions',
           '/advanced-topics/indices',
-          ['/advanced-topics/listeners-and-subscribers', 'Listeners and Subscribers'],
+          [
+            '/advanced-topics/listeners-and-subscribers',
+            'Listeners and Subscribers',
+          ],
           '/advanced-topics/logging',
           '/advanced-topics/using-cli',
         ],
@@ -152,5 +158,8 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ['@vuepress/plugin-back-to-top', 'fulltext-search',],
+  plugins: [
+    '@vuepress/plugin-back-to-top',
+    'fulltext-search',
+  ],
 };
