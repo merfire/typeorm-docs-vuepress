@@ -38,12 +38,8 @@ module.exports = {
     searchPlaceholder: 'Search',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/',
+        text: 'Github',
+        link: 'https://github.com/typeorm/typeorm',
       },
       {
         text: 'VuePress',
@@ -55,12 +51,12 @@ module.exports = {
     sidebar: [
       {
         title: 'Getting Started',
-        path: '/getting-started/',
+        path: '/',
       },
       {
         title: 'Connection',
         children: [
-          '/connection/connection',
+          ['/connection/', 'Working with connection'],
           ['/connection/using-ormconfig', 'Using ormconfig.json'],
           '/connection/connection-options',
           ['/connection/multiple-connections', 'Multiple Connections'],
@@ -81,7 +77,7 @@ module.exports = {
       {
         title: 'Relations',
         children: [
-          ['/relations/relations', 'What are relations?'],
+          ['/relations/', 'What are relations?'],
           ['/relations/one-to-one-relations', 'One-to-One'],
           [
             '/relations/many-to-one-one-to-many-relations',
@@ -95,7 +91,7 @@ module.exports = {
       {
         title: 'Entity Manager and Repository',
         children: [
-          ['/entity-manager-and-repository/working-with-entity-manager', 'Working with Entity Manager'],
+          ['/entity-manager-and-repository/working-with-entity-manager', 'Working with EntityManager'],
           '/entity-manager-and-repository/working-with-repository',
           '/entity-manager-and-repository/find-options',
           '/entity-manager-and-repository/custom-repository',
@@ -156,5 +152,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ['@vuepress/plugin-back-to-top', 'fulltext-search'],
+  plugins: ['@vuepress/plugin-back-to-top', 'fulltext-search',],
 };
