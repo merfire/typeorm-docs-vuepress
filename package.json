@@ -16,6 +16,6 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.6.0",
     "vuepress": "^1.5.3",
-    "vuepress-plugin-fulltext-search": "^2.0.6"
+    "vuepress-plugin-fulltext-search": "^2.1.0"
   }
 }

@@ -1,7 +1,3 @@
-# Getting started
-
-<div class="getting-started-spacer"></div>
-
 <div align="center">
   <a href="http://typeorm.io/">
     <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="492" height="228">

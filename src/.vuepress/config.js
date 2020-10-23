@@ -66,7 +66,7 @@ module.exports = {
       {
         title: 'Entity',
         children: [
-          ['/entity/entities', 'What is entity?'],
+          ['/entity/', 'What is entity?'],
           '/entity/embedded-entities',
           '/entity/entity-inheritance',
           '/entity/tree-entities',
